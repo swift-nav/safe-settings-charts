@@ -3,7 +3,7 @@ entries:
   ghas-compliance:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-07-09T23:51:17.41347685-07:00"
+    created: "2023-07-10T00:25:18.636711057-07:00"
     description: A GitHub App built with [Probot](https://github.com/probot/probot)
       for enforcing GHAS compliance policies.
     digest: 67cb2ffd08f057d0937c9386a03d4a368d8ddd7b316e259bb2b1f17d1ba3ee7d
@@ -26,11 +26,11 @@ entries:
   safe-settings:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-07-09T23:51:17.414428065-07:00"
+    created: "2023-07-10T00:25:18.637584687-07:00"
     description: A GitHub App built with [Probot](https://github.com/probot/probot)
       to manage policy-as-code and apply repository settings to repositories across
       an organization.
-    digest: e7f6aac9b024289875ba86e82564e46d9d5900f0a01a172da1784f9b5ed4ba75
+    digest: dd7cf41babbc2cda9fd5d812957b4d7dd74fa462469f2099cbe44bfe06d60a08
     home: https://github.com/github/safe-settings
     icon: https://wile.example.com/anvil.svg
     keywords:
@@ -48,7 +48,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-07-09T23:51:17.413925139-07:00"
+    created: "2023-07-10T00:25:18.637168709-07:00"
     description: A GitHub App built with [Probot](https://github.com/probot/probot)
       to manage policy-as-code and apply repository settings to repositories across
       an organization.
@@ -68,4 +68,4 @@ entries:
     urls:
     - safe-settings-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-09T23:51:17.413023081-07:00"
+generated: "2023-07-10T00:25:18.63625546-07:00"
