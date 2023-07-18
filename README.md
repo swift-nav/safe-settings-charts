@@ -2,6 +2,21 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Helm Charts repository for decyjphr-org.
+
+## Swift: Updating charts
+
+To update the charts repro (which will be available at https://swift-nav.github.io/safe-settings-charts):
+
+```
+# Packaging the chart
+helm package helm-charts/safe-settings
+
+# Updating the repo index
+helm repo index .
+```
+
+Then push results to GitHub.
+
 ## Usage
 
 [Helm](https://helm.sh/) must be installed to use the charts. Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
@@ -34,7 +49,6 @@ helm template ghas-compliance decyjphr/ghas-compliance --values myvalues.yaml
 Chart documentation is available in [decyjphr charts repo](https://github.com/decyjphr-org/charts/).
 
 *See [helm repo](https://helm.sh/docs/helm/helm_repo/) for command documentation.*
-
 
 ## Contributing
 
